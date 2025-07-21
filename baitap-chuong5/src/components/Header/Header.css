@@ -1,0 +1,8 @@
+.header {
+  background-color: aqua;
+  color: white;
+  display: flex;
+  justify-content: start;
+  gap: 10px;
+  align-items: center;
+}
