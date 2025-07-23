@@ -16,7 +16,7 @@ const BookItem = ({ book }) => {
   };
   return (
     <div>
-      <Link to="/books/:id">Title: {book.title}</Link>
+      <Link to={`/book/${book.id}`}>Title: {book.title}</Link>
       <div>
         <select
           value={book.borrowedBy || "available"}
